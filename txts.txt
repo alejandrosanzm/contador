@@ -1,0 +1,6 @@
+jisus.txt
+txts.txt
+nyaa.txt
+texto.txt
+integrador.txt
+contador.txt

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.ContMainView">
+   <children>
+      <TextArea fx:id="txtTexto" layoutX="26.0" layoutY="33.0" onKeyTyped="#ocultarLabel" prefHeight="262.0" prefWidth="549.0" wrapText="true" />
+      <Button layoutX="26.0" layoutY="333.0" mnemonicParsing="false" onAction="#grabar" prefHeight="28.0" prefWidth="158.0" text="Guardar" />
+      <Button layoutX="417.0" layoutY="333.0" mnemonicParsing="false" onAction="#ver" prefHeight="28.0" prefWidth="158.0" text="Ver" />
+      <Button layoutX="221.0" layoutY="333.0" mnemonicParsing="false" onAction="#limpiar" prefHeight="28.0" prefWidth="158.0" text="Limpiar" />
+      <Label fx:id="guard" layoutX="269.0" layoutY="295.0" prefHeight="21.0" prefWidth="62.0" text="Guardado" visible="false" />
+      <TextField fx:id="txtArchivo" layoutX="85.0" layoutY="380.0" prefHeight="18.0" prefWidth="162.0" text="texto" />
+      <Label layoutX="26.0" layoutY="385.0" text="Archivo" />
+      <Label layoutX="253.0" layoutY="385.0" text=".txt" />
+      <Button layoutX="319.0" layoutY="380.0" mnemonicParsing="false" onAction="#borarArchivo" text="Eliminar archivo" />
+      <ComboBox fx:id="combTxts" layoutX="91.0" layoutY="414.0" onAction="#eleccion" prefWidth="150.0" />
+   </children> 
+</AnchorPane>

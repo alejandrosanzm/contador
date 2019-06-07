@@ -1,0 +1,7 @@
+2019/06/06 12:24:01
+jisus.txt
+txts.txt
+texto.txt
+integrador.txt
+contador.txt
+
